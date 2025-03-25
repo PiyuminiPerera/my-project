@@ -7,7 +7,7 @@ class Car:
         self.price = price
         self.speed = speed
 
-   def display_info(self):
-       return f"{self.year} {self.brand} {self.model} - ${self.price}, Top Speed:{self.speed} km/h"
+    def display_info(self):
+        return f"{self.year} {self.brand} {self.model} - ${self.price}, Top Speed:{self.speed} km/h"
 
    
