@@ -1,7 +1,7 @@
 from car import Car
 
-car1 = Car('Toyota')
-car2 = Car('Honda')
-print('Hello,Welcome to the car program!')
-print(f'Car 1: {car1.brand}')
-print(f'Car 2: {car2.brand}')
+car1 = Car('Toyota','Corolla',2022)
+car2 = Car('Honda','Civic',2021)
+print('Hello,Here are car details:')
+print(car1.display_info())
+print(car2.display_info())
