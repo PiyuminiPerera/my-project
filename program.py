@@ -6,4 +6,5 @@ print('Hello,Here are car details:')
 print(car1.display_info())
 print(car2.display_info())
 
-
+print(compare_prices(car1, car2))
+print(compare_years(car1, car2))
