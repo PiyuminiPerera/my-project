@@ -1,5 +1,5 @@
 from car import Car
-from utility import compare_prices, compare years, compare_speed
+from utility import compare_prices, compare_years, compare_speed
 
 car1 = Car('Toyota','Corolla',2022,35000,220)
 car2 = Car('Honda','Civic',2021,25000,200)
